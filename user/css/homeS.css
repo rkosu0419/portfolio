@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+	body {
+		background: linear-gradient(to top, rgba(255,238,255, 0.8) 0%, rgba(151, 217, 225, 0.8) 100%);
+		width: 100vw;
+		height: 230vh;
+	}
+	header {
+		display: flex;
+		background-color: rgba(151, 217, 225, 0.8);
+		width: 100%;
+		height: 130px;
+		position: fixed;
+		top: 0;
+	}
+	@media screen and (max-width: 380px) {
+		img .pic{
+			width: 100% ;
+			height: auto;
+		}
+	}
+	.logo img{
+		margin: 5px;
+	  	width: 99px;
+	  	height: 99px;
+  	}
+  .menu1 {
+  		margin:0 0 0 auto;
+	}
+	.menu1 article {
+		margin-bottom: 50px;
+		padding: 80px 280px 30px;
+		border-radius: 20px;
+		background-color: #fff;
+		position: absolute; top: 8px; right: 195px;
+	}
+	.menu1 article .coach0 {
+		font-size: large;
+  		color: #FF0461;
+		position: absolute; top: 8px; right: 230px;
+	}
+	.menu1 article .coach1 {
+		display: inline-block;
+  		padding: 13px 23px;
+  		text-decoration: none;
+  		border: 1px;
+  		background: #FFFFEE;
+  		color: #000;
+  		box-shadow: 0px 2px 4px #000;
+		position: absolute; bottom: 15px; right: 340px;
+	}
+	.menu1 article .coach2 {
+		display: inline-block;
+  		padding: 13px 23px;
+  		text-decoration: none;
+  		border: 1px;
+  		background: #FFEEFF;
+  		color: #000;
+  		box-shadow: 0px 2px 4px #000;
+		position: absolute; bottom: 15px; right: 160px;
+	}
+	.menu1 article .coach3 {
+		display: inline-block;
+  		padding: 13px 23px;
+  		text-decoration: none;
+  		border: 1px;
+  		background: #EEFFFF;
+  		color: #000;
+  		box-shadow: 0px 2px 4px #000;
+		position: absolute; bottom: 15px; right: 10px;
+	}
+	.menu2 .rental {
+		display: inline-block;
+		width: 130px;
+  		padding: 13px 23px;
+  		text-decoration: none;
+  		border: 1px;
+  		background: #CEF9DC;
+  		color: #000;
+  		box-shadow: 0px 2px 4px #000;
+		position: absolute; bottom: 28px; right: 10px;
+	}
+	#pic{
+		position:  absolute;
+	    padding:  0px;
+		width: 900px;
+		height: 750px;
+		border: solid 9px #FFFFDD; 
+		border-radius: 13px;
+ 		left:  90px;
+	    top: 180px;
+	}
+	#greeting {
+		padding: 80px 0 100px;
+		border: solid 9px #FFFFDD; 
+		width: 900px;
+		color: #222;
+		text-align: center;
+		background-color: rgba(151, 217, 225, 0.8);
+		position:  absolute;
+		left:  90px;
+		top: 960px; 
+	}
+	#greeting .wrapper {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1000px;
+	}
+	#greeting img {
+		margin: 0 auto 40px;
+		padding-bottom: 0px;
+		width: 108px;
+		height: 108px;
+ 	}
+	#greeting h1 {
+		margin: 0 auto 40px;
+		padding-bottom: 0px;
+		font-size: 1.25rem;
+		font-weight: 700;
+	}
+	#greeting article {
+		margin-bottom: 40px;
+		padding: 40px 40px 35px;
+		text-align: left;
+		border-radius: 20px;
+		background-color: #fff;
+	}
+	#greeting article h2 {
+		margin-bottom: 30px;
+		padding-bottom: 12px;
+		font-size: 1.15rem;
+		line-height: 1.8em;
+		border-bottom: 2px solid #d5c800;
+	}
+	#greeting article .text_content {
+		line-height: 2.0em;
+		font-size: 0.85rem;
+	}
+	#notice {
+		padding: 80px 0 100px;
+		border: solid 9px #FFFFDD; 
+		width: 900px;
+		color: #222;
+		text-align: center;
+		background-color: rgba(255,238,255, 0.7);
+		position:  absolute;
+		left:  90px;
+		top: 1810px; 
+	}
+	#notice .wrapper {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1000px;
+	}
+	#notice h1 {
+		display: inline-block;
+		margin: 0 auto 40px;
+		padding-bottom: 10px;
+		font-size: 1.25rem;
+		font-weight: 700;
+		border-bottom: 4px solid #222;
+	}
+	#notice article {
+		margin-bottom: 40px;
+		padding: 40px 40px 35px;
+		text-align: left;
+		border-radius: 20px;
+		background-color: #fff;
+	}
+	#notice article .text_date {
+		font-size: 0.85rem;
+	}
+	#notice article h2 {
+		margin-bottom: 30px;
+		padding-bottom: 12px;
+		font-size: 1.15rem;
+		line-height: 1.8em;
+		border-bottom: 2px solid #d5c800;
+	}
+	#notice article .text_content {
+		line-height: 2.0em;
+		font-size: 0.85rem;
+	}
+	#access{
+		position:  absolute;
+	    padding:  0px;
+ 		left:  250px;
+	    top: 3200px;
+	}
+	#station{
+		position:  absolute;
+	    padding:  0px;
+ 		left:  250px;
+	    top: 3250px;
+	}
+	.lineQR{
+		position:  absolute;
+	    padding:  0px;
+		width: 300px;
+		height: 300px;
+ 		left:  260px;
+	    top: 3400px;
+	}
+	footer {
+		background-color: rgba(151, 217, 225, 0.7);
+		text-align: center;
+		width: 110vw;
+		height: 100px;
+		position: absolute;
+    	top: 225vh;
+	}

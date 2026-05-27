@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+	body {
+		background: linear-gradient(to top, rgba(255,238,255, 0.8) 0%, rgba(151, 217, 225, 0.8) 100%);
+		width: 100vw;
+		height: 180vh;
+	}
+	header {
+		display: flex;
+		background-color: rgba(151, 217, 225, 0.8);
+		width: 100%;
+		height: 130px;
+		position: fixed;
+		top: 0;
+	}
+	@media screen and (max-width: 380px) {
+		img .pic{
+			width: 100% ;
+			height: auto;
+		}
+	}
+	.logo img{
+		margin: 5px;
+	  	width: 99px;
+	  	height: 99px;
+  }
+  .menu {
+  		margin:0 0 0 auto;
+	}
+	.return {
+		display: inline-block;
+		padding: 16px 24px;
+		text-decoration: none;
+		border: 1px;
+		background: #CEF9DC;
+		color: #000;
+		box-shadow: 0px 2px 4px #575;
+	}
+	#pic1 {
+		position:  absolute;
+	    padding:  0px;
+		width: 900px;
+		height: 900px;
+		border: solid 9px #FFFFDD; 
+		border-radius: 13px;
+ 		left:  90px;
+	    top: 180px;
+	}
+	#greeting {
+		padding: 80px 0 100px;
+		border: solid 9px #FFFFDD; 
+		width: 900px;
+		color: #222;
+		text-align: center;
+		background-color: rgba(151, 217, 225, 0.8);
+		position:  absolute;
+		left:  90px;
+		top: 1110px; 
+	}
+	#greeting .wrapper {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1000px;
+	}
+	#greeting img {
+		margin: 0 auto 40px;
+		padding-bottom: 0px;
+		width: 108px;
+		height: 108px;
+ 	}
+	#greeting article {
+		margin-bottom: 40px;
+		padding: 40px 40px 35px;
+		text-align: left;
+		border-radius: 20px;
+		background-color: #fff;
+	}
+	#greeting article h2 {
+		margin-bottom: 30px;
+		padding-bottom: 12px;
+		font-size: 1.15rem;
+		line-height: 1.8em;
+		border-bottom: 2px solid #d5c800;
+	}
+	#greeting article .text_content1 {
+		line-height: 2.0em;
+		font-size: 0.8rem;
+	}
+	#greeting article .text_content2 {
+		line-height: 2.0em;
+		font-size: 0.8rem;
+		color: #FF0000;
+		animation: blinking1 1s ease-in-out infinite alternate;
+	}
+	@keyframes blinking1 {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+	#greeting article .text_content3 {
+		line-height: 2.0em;
+		font-size: 0.8rem;
+	}
+	#greeting article #pic2 {
+		margin: 0 auto 40px;
+		padding-bottom: 0px;
+		left: 300pxs;
+		width: 499px;
+		height: 449px;
+		animation :imgfade 3s infinite;
+		opacity: 0;
+ 	}
+	 @keyframes imgfade {
+		0% {opacity: 0;}
+		25% {opacity: 1;}
+		50% {opacity: 1;}
+		75% {opacity: 1;}
+		100% {opacity: 0;}
+	}
+	#greeting article .text_content3 {
+		line-height: 2.0em;
+		font-size: 0.8rem;
+		color: #FF0000;
+		animation: blinking2 1s ease-in-out infinite alternate;
+	}
+	@keyframes blinking2 {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+	#greeting article .video {
+		margin: 0 auto 40px;
+		padding-bottom: 0px;
+		left: 300pxs;
+		width: 499px;
+		height: 449px;
+ 	}
+	#greeting article .text_content4 {
+		line-height: 2.0em;
+		font-size: 0.8rem;
+	}
+	#greeting article .text_content5 {
+		line-height: 2.0em;
+		font-size: 0.95rem;
+		color: #FF0000;
+	}
+	footer {
+		background-color: rgba(151, 217, 225, 0.8);
+		text-align: center;
+		width: 110vw;
+		height: 100px;
+		position: absolute;
+    	top: 175vh;
+	}
